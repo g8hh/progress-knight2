@@ -416,7 +416,7 @@ var cnItems = {
     "1 + the max level of the class or ability / 10.": "1 + 职业或能力的最高等级 / 10。",
     "Arrow Keys - Menu navigation": "箭头键 - 菜单导航",
     "Battle Tactics lvl": "战斗战术 等级",
-    "": "",
+    "Muscle Memory lvl": "肌肉记忆 等级",
     "": "",
     "": "",
     "": "",
