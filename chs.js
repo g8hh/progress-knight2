@@ -13,7 +13,7 @@ var cnItems = {
 
     //未分类：
     'Active': '激活',
-    'Age': '年龄:',
+    'Age': '年龄\t',
     'Beggar': '乞丐',
     'Beggar lvl': '乞丐等级',
     'House': '房子',
@@ -100,7 +100,7 @@ var cnItems = {
     'Elite knight': '精英骑士',
     'Effect': '效果',
     'Dumbbells': '哑铃',
-    'Day': '天',
+    'Day': '，天数\t',
     'Dark influence': '邪恶势力',
     'Demon training': '魔鬼训练',
     'Disable warp': '禁用扭曲',
