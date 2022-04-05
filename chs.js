@@ -781,6 +781,7 @@ var cnRegReplace = new Map([
     [/^Void Slave level (.+), Chairman level (.+)$/, '虚空奴隶等级 $1，会长等级 $2'],
     [/^Mana Control level (.+)\/$/, '法力控制等级 $1\/'],
     [/^Void Slave level (.+)\/$/, '虚空奴隶等级 $1\/'],
+    [/^Battle Tactics level (.+), Centenary level (.+)$/, '战斗战术等级 $1，百年纪念等级 $2'],
     [/^Battle Tactics level (.+), Footman level (.+)$/, '战斗战术等级 $1，步兵等级 $2'],
     [/^Battle Tactics level ([\d\.]+)\/$/, '战斗战术等级 $1\/'],
     [/^(.+) Cosmic Longevity level (.+)$/, '$1 宇宙寿命等级 $2'],
