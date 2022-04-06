@@ -368,8 +368,8 @@ var cnItems = {
     "Allows you to shape your own reality within the Void itself.": "允许你在虚空本身中塑造你自己的现实。",
     "Almightiness": "全能",
     "and current levels.\n                                        However your max level won't be erased but multiplied with": "和当前级别。\n 但是，您的最大级别不会被删除，而是乘以",
-    "and reach its final form after": "并在之后达到最终形式",
-    "and transform even further after living for\n                                        a": "并在生活后更进一步\n",
+    "and reach its final form after": "并在之后达到最终形态",
+    "and transform even further after living for\n                                        a": "并更进一步在生存\n",
     "Apprentice Mage": "学徒法师",
     "Archmage": "大法师",
     "Arrow Keys - Menu navigation\n\t\t\t\t\t\t\t\t\t\t": "箭头键 - 菜单导航\n\t\t\t\t\t\t\t\t\t\t",
@@ -526,7 +526,7 @@ var cnItems = {
     "": "",
 
     //原样
-    '2 whole centuries': '',
+    '2 whole centuries': '200年',
     '': '',
     '': '',
 
