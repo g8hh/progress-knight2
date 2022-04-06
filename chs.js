@@ -629,6 +629,7 @@ var cnPrefix = {
     "Void Amplification lvl": "虚空增幅等级",
     "Void Fiend lvl": "虚空恶魔等级",
     "Void Influence lvl": "虚空影响等级",
+    "Void Lord lvl": "虚空领主等级",
     "Void Lord level": "虚空领主等级",
     "Void Reaver lvl": "虚空掠夺者等级",
     "Void Slave lvl": "虚空奴隶等级",
