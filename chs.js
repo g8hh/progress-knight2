@@ -617,7 +617,7 @@ var cnPrefix = {
     "Demon Training lvl": "恶魔训练等级",
     "Demon's Wealth lvl": "恶魔的财富 等级",
     "Evil Control lvl": "邪恶控制等级",
-    "Imperator lvl": "元首等级",
+    "Imperator lvl": "帝王等级",
     "Life Essence lvl": "生命精华等级",
     "Mana Control lvl": "法力控制等级",
     "Master Wizard lvl": "大师级法师",
