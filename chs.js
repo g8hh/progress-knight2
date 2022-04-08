@@ -774,6 +774,7 @@ var cnRegReplace = new Map([
     [/^(.+) Concentration level (.+), Chairman level (.+)$/, '$1 专注等级 $2，会长等级 $3'],
     [/^Battle Tactics level (.+), Holy Knight level (.+)$/, '战斗战术等级 $1，圣骑士等级 $2'],
     [/^Void Influence level (.+), Abyss Anomaly level (.+)$/, '虚空影响等级 $1，深渊异常等级 $2'],
+    [/^Mana Control level (.+), Productivity level (.+)$/, '法力控制等级 $1，生产力等级 $2'],
     [/^Mana Control level (.+), Abyss Anomaly level (.+)$/, '法力控制等级 $1，深渊异常等级 $2'],
     [/^Mana Control level (.+), Student level (.+)$/, '法力控制等级 $1，学生等级 $2'],
     [/^Mana Control level (.+), Master Wizard level (.+)$/, '法力控制等级 $1，大师级法师等级 $2'],
