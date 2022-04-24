@@ -745,7 +745,7 @@ var cnRegReplace = new Map([
     [/^x([\d\.]+) T.A.A. XP$/, 'x$1 T.A.A. 经验'],
     [/^x([\d\.]+) Longer Lifespan$/, 'x$1 更长的使用寿命'],
     [/^x([\d\.]+) Galactic Council XP$/, 'x$1 银河委员会 经验'],
-    [/^x([\d\.]+) Reduced Expenses$/, 'x$1 减少费用'],
+    [/^x([\d\.]+) Reduced Expenses$/, 'x$1 费用减少'],
     [/^x([\d\.]+) Essence Gain$/, 'x$1 精华增益'],
     [/^x([\d\.]+) Evil Gain$/, 'x$1 邪恶增益'],
     [/^x([\d\.]+) Reduced Happiness$/, 'x$1 幸福感降低'],
