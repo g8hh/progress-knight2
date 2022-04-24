@@ -779,6 +779,7 @@ var cnRegReplace = new Map([
     [/^Mana Control level (.+), Apprentice Mage level (.+)$/, '法力控制等级 $1，学徒法师等级 $2'],
     [/^Mana Control level (.+), Adept Mage level (.+)$/, '法力控制等级 $1，熟练法师等级 $2'],
     [/^Mana Control level (.+), Veteran Knight level (.+)$/, '法力控制等级 $1，资深骑士等级 $2'],
+    [/^Mana Control level (.+), Productivity level (.+), Chronomancer level (.+)$/, '法力控制等级 $1，生产力等级 $2，时空术士等级 $3'],
     [/^Mana Control level (.+), Productivity level (.+)$/, '法力控制等级 $1，生产力等级 $2'],
     [/^Mana Control level (.+), Abyss Anomaly level (.+)$/, '法力控制等级 $1，深渊异常等级 $2'],
     [/^Mana Control level (.+), Battle Tactics level (.+)$/, '法力控制等级 $1，战斗战术等级 $2'],
