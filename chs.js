@@ -590,7 +590,7 @@ var cnRegReplace = new Map([
     [/^ Meditation level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/6.3k$/, '冥想 等级 $1/6.3k'],
     [/^ Acallaris level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/1.4k$/, '阿卡拉里斯 等级 $1/1.4k'],
     [/^ Concentration level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/30, Productivity level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/20$/, '专注 等级 $1/30，效率 等级 $2/20'],
-    [/^ Concentration level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/30, Strength level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/30$/, '专注 等级 $1/30，力量 等级 $2/20'],
+    [/^ Concentration level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/30, Strength level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/30$/, '专注 等级 $1/30，力量 等级 $2/30'],
     [/^ Archmage level([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/10$/, '法宗 等级 $1/10'],
     [/^ Chronomancer level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/25$/, '时光法师 等级 $1/25'],
     [/^ Mana Control level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/2.5k, Chairman level ([\.\dBDGMNOQSTUVcdgkpqtxv]+)\/100$/, '控制法力 等级 $1/2.5k，主席 等级 $2/100'],
