@@ -87,54 +87,54 @@ const jobBaseData = {
 }
 
 const skillBaseData = {
-    "Concentration": {name: "Concentration", maxXp: 100, effect: 0.01, description: "Ability XP"},
-    "Productivity": {name: "Productivity", maxXp: 100, effect: 0.01, description: "Class XP"},
-    "Bargaining": {name: "Bargaining", maxXp: 100, effect: -0.01, description: "Reduced Expenses"},
-    "Meditation": {name: "Meditation", maxXp: 100, effect: 0.01, description: "Happiness"},
+    "Concentration": {name: "Concentration", maxXp: 100, effect: 0.01, description: "技能经验值"},
+    "Productivity": {name: "Productivity", maxXp: 100, effect: 0.01, description: "职业经验值"},
+    "Bargaining": {name: "Bargaining", maxXp: 100, effect: -0.01, description: "费用减少"},
+    "Meditation": {name: "Meditation", maxXp: 100, effect: 0.01, description: "幸福感"},
 
-    "Strength": {name: "Strength", maxXp: 100, effect: 0.01, description: "Military Pay"},
-    "Battle Tactics": {name: "Battle Tactics", maxXp: 100, effect: 0.01, description: "Military XP"},
-    "Muscle Memory": {name: "Muscle Memory", maxXp: 100, effect: 0.01, description: "Strength XP"},
+    "Strength": {name: "Strength", maxXp: 100, effect: 0.01, description: "军队收入"},
+    "Battle Tactics": {name: "Battle Tactics", maxXp: 100, effect: 0.01, description: "军队经验值"},
+    "Muscle Memory": {name: "Muscle Memory", maxXp: 100, effect: 0.01, description: "力量经验值"},
 
-    "Mana Control": {name: "Mana Control", maxXp: 100, effect: 0.01, description: "T.A.A. XP"},
-    "Life Essence": {name: "Life Essence", maxXp: 100, effect: 0.01, description: "Longer Lifespan"},
-    "Time Warping": {name: "Time Warping", maxXp: 100, effect: 0.01, description: "Gamespeed"},
-    "Astral Body": {name: "Astral Body", maxXp: 100, effect: 0.0035, description: "Longer lifespan"},
-	"Temporal Dimension": {name: "Temporal Dimension", maxXp: 100, effect: 0.025, description: "Gamespeed"},
-	"All Seeing Eye": {name: "All Seeing Eye", maxXp: 100, effect: 0.0027, description: "T.A.A Pay"},
-	"Brainwashing": {name: "Brainwashing", maxXp: 100, effect: -0.01, description: "Reduced Expenses"},
+    "Mana Control": {name: "Mana Control", maxXp: 100, effect: 0.01, description: "奥术协会经验值"},
+    "Life Essence": {name: "Life Essence", maxXp: 100, effect: 0.01, description: "寿元"},
+    "Time Warping": {name: "Time Warping", maxXp: 100, effect: 0.01, description: "游戏速度"},
+    "Astral Body": {name: "Astral Body", maxXp: 100, effect: 0.0035, description: "寿元"},
+	"Temporal Dimension": {name: "Temporal Dimension", maxXp: 100, effect: 0.025, description: "游戏速度"},
+	"All Seeing Eye": {name: "All Seeing Eye", maxXp: 100, effect: 0.0027, description: "奥术协会收入"},
+	"Brainwashing": {name: "Brainwashing", maxXp: 100, effect: -0.01, description: "费用减少"},
 	
-	"Absolute Wish": {name: "Absolute Wish", maxXp: 100, effect: 0.005, description: "Evil Gain"},
-    "Void Amplification": {name: "Void Amplification", maxXp: 100, effect: 0.01, description: "The Void XP"},
-    "Mind Seize": {name: "Mind Seize", maxXp: 100, effect: 0.0006, description: "Reduced Happiness"},
-	"Ceaseless Abyss": {name: "Ceaseless Abyss", maxXp: 100, effect: 0.000585, description: "Longer Lifespan"},
-	"Void Symbiosis": {name: "Void Symbiosis", maxXp: 100, effect: 0.0015, description: "Ability XP"},
-    "Void Embodiment": {name: "Void Embodiment", maxXp: 100, effect: 0.0025, description: "Evil Gain"},
-	"Abyss Manipulation": {name: "Abyss Manipulation", maxXp: 100, effect: -0.01, description: "Reduced Expenses"},
-	
-	
-	"Cosmic Longevity": {name: "Cosmic Longevity", maxXp: 100, effect: 0.0015, description: "Longer Lifespan"},
-    "Cosmic Recollection": {name: "Cosmic Recollection", maxXp: 100, effect: 0.00065, description: "Max Lvl Multiplier"},
-	"Essence Collector": {name: "Essence Collector", maxXp: 100, effect: 0.01, description: "Essence Gain"},
-	"Galactic Command": {name: "Galactic Command", maxXp: 100, effect: -0.01, description: "Reduced Expenses"},
+	"Absolute Wish": {name: "Absolute Wish", maxXp: 100, effect: 0.005, description: "邪恶获取"},
+    "Void Amplification": {name: "Void Amplification", maxXp: 100, effect: 0.01, description: "虚空经验值"},
+    "Mind Seize": {name: "Mind Seize", maxXp: 100, effect: 0.0006, description: "幸福感减少"},
+	"Ceaseless Abyss": {name: "Ceaseless Abyss", maxXp: 100, effect: 0.000585, description: "寿元"},
+	"Void Symbiosis": {name: "Void Symbiosis", maxXp: 100, effect: 0.0015, description: "技能经验值"},
+    "Void Embodiment": {name: "Void Embodiment", maxXp: 100, effect: 0.0025, description: "邪恶获取"},
+	"Abyss Manipulation": {name: "Abyss Manipulation", maxXp: 100, effect: -0.01, description: "费用减少"},
 	
 	
-    "Dark Influence": {name: "Dark Influence", maxXp: 100, effect: 0.01, description: "All XP"},
-    "Evil Control": {name: "Evil Control", maxXp: 100, effect: 0.01, description: "Evil Gain"},
-    "Intimidation": {name: "Intimidation", maxXp: 100, effect: -0.01, description: "Reduced Expenses"},
-    "Demon Training": {name: "Demon Training", maxXp: 100, effect: 0.01, description: "All XP"},
-    "Blood Meditation": {name: "Blood Meditation", maxXp: 100, effect: 0.01, description: "Evil Gain"},
-    "Demon's Wealth": {name: "Demon's Wealth", maxXp: 100, effect: 0.002, description: "Class Pay"},
-	"Dark Knowledge": {name: "Dark Knowledge", maxXp: 100, effect: 0.003, description: "Class XP"},
-	"Void Influence": {name: "Void Influence", maxXp: 100, effect: 0.0028, description: "All XP"},
-	"Time Loop": {name: "Time Loop", maxXp: 100, effect: 0.001, description: "Gamespeed"},
-	"Evil Incarnate": {name: "Evil Incarnate", maxXp: 100, effect: 0.0004, description: "Ability XP"},
+	"Cosmic Longevity": {name: "Cosmic Longevity", maxXp: 100, effect: 0.0015, description: "寿元"},
+    "Cosmic Recollection": {name: "Cosmic Recollection", maxXp: 100, effect: 0.00065, description: "最高等级倍率"},
+	"Essence Collector": {name: "Essence Collector", maxXp: 100, effect: 0.01, description: "精华获取"},
+	"Galactic Command": {name: "Galactic Command", maxXp: 100, effect: -0.01, description: "费用减少"},
+	
+	
+    "Dark Influence": {name: "Dark Influence", maxXp: 100, effect: 0.01, description: "所有经验值"},
+    "Evil Control": {name: "Evil Control", maxXp: 100, effect: 0.01, description: "邪恶获取"},
+    "Intimidation": {name: "Intimidation", maxXp: 100, effect: -0.01, description: "费用减少"},
+    "Demon Training": {name: "Demon Training", maxXp: 100, effect: 0.01, description: "所有经验值"},
+    "Blood Meditation": {name: "Blood Meditation", maxXp: 100, effect: 0.01, description: "邪恶获取"},
+    "Demon's Wealth": {name: "Demon's Wealth", maxXp: 100, effect: 0.002, description: "职业收入"},
+	"Dark Knowledge": {name: "Dark Knowledge", maxXp: 100, effect: 0.003, description: "职业经验值"},
+	"Void Influence": {name: "Void Influence", maxXp: 100, effect: 0.0028, description: "所有经验值"},
+	"Time Loop": {name: "Time Loop", maxXp: 100, effect: 0.001, description: "游戏速度"},
+	"Evil Incarnate": {name: "Evil Incarnate", maxXp: 100, effect: 0.0004, description: "技能经验值"},
 	
 
-    "Yin Yang": {name: "Yin Yang", maxXp: 100, effect: 0.020, description: "Essence + Evil Gain"},
-	"Parallel Universe": {name: "Parallel Universe", maxXp: 100, effect: 0.02, description: "All XP"},
-	"Higher Dimensions": {name: "Higher Dimensions", maxXp: 100, effect: 0.001, description: "Longer Lifespan"},
-	"Epiphany": {name: "Epiphany", maxXp: 100, effect: 0.012, description: "Galactic Council XP"},
+    "Yin Yang": {name: "Yin Yang", maxXp: 100, effect: 0.020, description: "精华及邪恶获取"},
+	"Parallel Universe": {name: "Parallel Universe", maxXp: 100, effect: 0.02, description: "所有经验值"},
+	"Higher Dimensions": {name: "Higher Dimensions", maxXp: 100, effect: 0.001, description: "寿元"},
+	"Epiphany": {name: "Epiphany", maxXp: 100, effect: 0.012, description: "银河委员会经验值"},
 
 }
 
@@ -157,24 +157,24 @@ const itemBaseData = {
 	"Galactic Throne": {name: "Galactic Throne", expense: 5000000000000000, effect: 300000},
 
 
-    "Book": {name: "Book", expense: 10, effect: 1.5, description: "Ability XP"},
-    "Dumbbells": {name: "Dumbbells", expense: 50, effect: 1.5, description: "Strength XP"},
-    "Personal Squire": {name: "Personal Squire", expense: 200, effect: 2, description: "Class XP"},
-    "Steel Longsword": {name: "Steel Longsword", expense: 1000, effect: 2, description: "Military XP"},
-    "Butler": {name: "Butler", expense: 7500, effect: 1.5, description: "Happiness"},
-    "Sapphire Charm": {name: "Sapphire Charm", expense: 50000, effect: 3, description: "Magic XP"},
-    "Study Desk": {name: "Study Desk", expense: 1000000, effect: 2, description: "Ability XP"},
-    "Library": {name: "Library", expense: 10000000, effect: 2, description: "Ability XP"},
-	"Observatory": {name: "Observatory", expense: 140000000, effect: 5, description: "Magic XP"},
-	"Mind's Eye": {name: "Mind's Eye", expense: 3250000000, effect: 10, description: "Fundamentals XP"},
-	"Void Necklace": {name: "Void Necklace", expense: 28050000000, effect: 3, description: "Void Manipulation XP"},
-    "Void Armor": {name: "Void Armor", expense: 197050000000, effect: 3, description: "The Void XP"},
-	"Void Blade": {name: "Void Blade", expense: 502050000000, effect: 3, description: "Ability XP"},
-	"Void Orb": {name: "Void Orb", expense: 1202050000000, effect: 3, description: "Void Manipulation XP"},
-	"Void Dust": {name: "Void Dust", expense: 25002050000000, effect: 3, description: "The Void XP"},
-	"Celestial Robe": {name: "Celestial Robe", expense: 300002050000000, effect: 5, description: "Galactic Council XP"},
-	"Universe Fragment": {name: "Universe Fragment", expense: 18500002050000000, effect: 3, description: "Ability XP"},
-	"Multiverse Fragment": {name: "Multiverse Fragment", expense: 200500002050000000, effect: 5, description: "Happiness"},
+    "Book": {name: "Book", expense: 10, effect: 1.5, description: "技能经验值"},
+    "Dumbbells": {name: "Dumbbells", expense: 50, effect: 1.5, description: "力量经验值"},
+    "Personal Squire": {name: "Personal Squire", expense: 200, effect: 2, description: "职业经验值"},
+    "Steel Longsword": {name: "Steel Longsword", expense: 1000, effect: 2, description: "军队经验值"},
+    "Butler": {name: "Butler", expense: 7500, effect: 1.5, description: "幸福感"},
+    "Sapphire Charm": {name: "Sapphire Charm", expense: 50000, effect: 3, description: "魔法经验值"},
+    "Study Desk": {name: "Study Desk", expense: 1000000, effect: 2, description: "技能经验值"},
+    "Library": {name: "Library", expense: 10000000, effect: 2, description: "技能经验值"},
+	"Observatory": {name: "Observatory", expense: 140000000, effect: 5, description: "魔法经验值"},
+	"Mind's Eye": {name: "Mind's Eye", expense: 3250000000, effect: 10, description: "基本经验值"},
+	"Void Necklace": {name: "Void Necklace", expense: 28050000000, effect: 3, description: "虚空操控经验值"},
+    "Void Armor": {name: "Void Armor", expense: 197050000000, effect: 3, description: "虚空经验值"},
+	"Void Blade": {name: "Void Blade", expense: 502050000000, effect: 3, description: "技能经验值"},
+	"Void Orb": {name: "Void Orb", expense: 1202050000000, effect: 3, description: "虚空操控经验值"},
+	"Void Dust": {name: "Void Dust", expense: 25002050000000, effect: 3, description: "虚空经验值"},
+	"Celestial Robe": {name: "Celestial Robe", expense: 300002050000000, effect: 5, description: "银河委员会经验值"},
+	"Universe Fragment": {name: "Universe Fragment", expense: 18500002050000000, effect: 3, description: "技能经验值"},
+	"Multiverse Fragment": {name: "Multiverse Fragment", expense: 200500002050000000, effect: 5, description: "幸福感"},
 
 }
 
@@ -1089,12 +1089,15 @@ function formatCoins(coins, element) {
         var x = Math.floor(leftOver / Math.pow(10, (tiers.length - i) * 2))
         var leftOver = Math.floor(leftOver - x * Math.pow(10, (tiers.length - i) * 2))
         var text = (coins > 1e9 && i > 0) ? "" : format(String(x),2) + tier + " "
+        text = text.replace("p","白金")
+        text = text.replace("g","金")
+        text = text.replace("s","银")
         element.children[i].textContent = x > 0 ? text : ""
         element.children[i].style.color = colors[tier]
         i += 1
     }
     if (leftOver == 0 && coins > 0 || coins > 1e9) {element.children[3].textContent = ""; return}
-    var text = String(Math.floor(leftOver)) + "c"
+    var text = String(Math.floor(leftOver)) + "铜"
     element.children[3].textContent = text
     element.children[3].style.color = colors["c"]
 }
