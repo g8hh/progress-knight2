@@ -337,6 +337,7 @@ var cnItems = {
     'Reset': '重置',
     'Misc': '杂项',
     'Sticky sidebar': '侧边栏固定在屏幕内',
+    'Shortcuts': '快捷键',
     'Arrow Keys - Menu navigation': '方向键 - 切换选项卡',
     'Spacebar - Pause': '空格键 - 暂停',
     'P - Auto-promote': 'P键 - 自动晋升',
