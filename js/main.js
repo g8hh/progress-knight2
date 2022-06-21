@@ -723,7 +723,230 @@ function updateQuickTaskDisplay(taskType) {
     var currentTask = taskType == "job" ? gameData.currentJob : gameData.currentSkill
     var quickTaskDisplayElement = document.getElementById("quickTaskDisplay")
     var progressBar = quickTaskDisplayElement.getElementsByClassName(taskType)[0]
-    progressBar.getElementsByClassName("name")[0].textContent = currentTask.name + " lvl " + currentTask.level
+    var dispname = currentTask.name
+    if (dispname == "Beggar"){
+        dispname = "乞丐"
+    }
+    else if (dispname == "Farmer"){
+        dispname = "农民"
+    }
+    else if (dispname == "Fisherman"){
+        dispname = "渔夫"
+    }
+    else if (dispname == "Miner"){
+        dispname = "矿工"
+    }
+    else if (dispname == "Blacksmith"){
+        dispname = "铁匠"
+    }
+    else if (dispname == "Merchant"){
+        dispname = "商人"
+    }
+    else if (dispname == "Squire"){
+        dispname = "扈从"
+    }
+    else if (dispname == "Footman"){
+        dispname = "步兵"
+    }
+    else if (dispname == "Veteran footman"){
+        dispname = "资深步兵"
+    }
+    else if (dispname == "Centenary"){
+        dispname = "百夫长"
+    }
+    else if (dispname == "Knight"){
+        dispname = "骑士"
+    }
+    else if (dispname == "Veteran Knight"){
+        dispname = "资深骑士"
+    }
+    else if (dispname == "Holy Knight"){
+        dispname = "圣骑士"
+    }
+    else if (dispname == "Lieutenant General"){
+        dispname = "中将"
+    }
+    else if (dispname == "Student"){
+        dispname = "学生"
+    }
+    else if (dispname == "Apprentice Mage"){
+        dispname = "魔法学徒"
+    }
+    else if (dispname == "Adept Mage"){
+        dispname = "法师达人"
+    }
+    else if (dispname == "Master Wizard"){
+        dispname = "大法师"
+    }
+    else if (dispname == "Archmage"){
+        dispname = "法宗"
+    }
+    else if (dispname == "Chronomancer"){
+        dispname = "时光法师"
+    }
+    else if (dispname == "Chairman"){
+        dispname = "主席"
+    }
+    else if (dispname == "Imperator"){
+        dispname = "法皇"
+    }
+    else if (dispname == "Corrupted"){
+        dispname = "腐化"
+    }
+    else if (dispname == "Void Slave"){
+        dispname = "虚空奴隶"
+    }
+    else if (dispname == "Void Fiend"){
+        dispname = "虚空邪魔"
+    }
+    else if (dispname == "Abyss Anomaly"){
+        dispname = "深渊畸体"
+    }
+    else if (dispname == "Void Wraith"){
+        dispname = "虚空幽魂"
+    }
+    else if (dispname == "Void Reaver"){
+        dispname = "虚空掠夺者"
+    }
+    else if (dispname == "Void Lord"){
+        dispname = "虚空领主"
+    }
+    else if (dispname == "Abyss God"){
+        dispname = "深渊之神"
+    }
+    else if (dispname == "Eternal Wanderer"){
+        dispname = "永恒浪客"
+    }
+    else if (dispname == "Nova"){
+        dispname = "新星"
+    }
+    else if (dispname == "Sigma Proioxis"){
+        dispname = "西格玛普洛伊俄克斯"
+    }
+    else if (dispname == "Acallaris"){
+        dispname = "阿卡拉里斯"
+    }
+    else if (dispname == "One Above All"){
+        dispname = "至高无上"
+    }
+    else if (dispname == "Concentration"){
+        dispname = "专注"
+    }
+    else if (dispname == "Productivity"){
+        dispname = "效率"
+    }
+    else if (dispname == "Bargaining"){
+        dispname = "议价"
+    }
+    else if (dispname == "Meditation"){
+        dispname = "冥想"
+    }
+    else if (dispname == "Strength"){
+        dispname = "力量"
+    }
+    else if (dispname == "Battle Tactics"){
+        dispname = "兵法韬略"
+    }
+    else if (dispname == "Muscle Memory"){
+        dispname = "肌肉记忆"
+    }
+    else if (dispname == "Mana Control"){
+        dispname = "控制法力"
+    }
+    else if (dispname == "Life Essence"){
+        dispname = "生命源质"
+    }
+    else if (dispname == "Time Warping"){
+        dispname = "扭曲时间"
+    }
+    else if (dispname == "Astral Body"){
+        dispname = "星光体"
+    }
+    else if (dispname == "Temporal Dimension"){
+        dispname = "时间维度"
+    }
+    else if (dispname == "All Seeing Eye"){
+        dispname = "全视之眼"
+    }
+    else if (dispname == "Brainwashing"){
+        dispname = "意识操控"
+    }
+    else if (dispname == "Dark Influence"){
+        dispname = "黑暗影响"
+    }
+    else if (dispname == "Evil Control"){
+        dispname = "邪恶控制"
+    }
+    else if (dispname == "Intimidation"){
+        dispname = "威胁恐吓"
+    }
+    else if (dispname == "Demon Training"){
+        dispname = "恶魔训练"
+    }
+    else if (dispname == "Blood Meditation"){
+        dispname = "血之冥想"
+    }
+    else if (dispname == "Demon\'s Wealth"){
+        dispname = "恶魔财富"
+    }
+    else if (dispname == "Dark Knowledge"){
+        dispname = "黑暗知识"
+    }
+    else if (dispname == "Void Influence"){
+        dispname = "虚空影响"
+    }
+    else if (dispname == "Time Loop"){
+        dispname = "时间循环"
+    }
+    else if (dispname == "Evil Incarnate"){
+        dispname = "邪恶具现"
+    }
+    else if (dispname == "Absolute Wish"){
+        dispname = "绝对心愿"
+    }
+    else if (dispname == "Void Amplification"){
+        dispname = "扩充虚空"
+    }
+    else if (dispname == "Mind Seize"){
+        dispname = "占据意识"
+    }
+    else if (dispname == "Ceaseless Abyss"){
+        dispname = "无尽深渊"
+    }
+    else if (dispname == "Void Symbiosis"){
+        dispname = "虚空共生"
+    }
+    else if (dispname == "Void Embodiment"){
+        dispname = "虚空化身"
+    }
+    else if (dispname == "Abyss Manipulation"){
+        dispname = "控制深渊"
+    }
+    else if (dispname == "Cosmic Longevity"){
+        dispname = "天地同寿"
+    }
+    else if (dispname == "Cosmic Recollection"){
+        dispname = "宇宙回忆"
+    }
+    else if (dispname == "Essence Collector"){
+        dispname = "精华汲取"
+    }
+    else if (dispname == "Galactic Command"){
+        dispname = "银河命令"
+    }
+    else if (dispname == "Yin Yang"){
+        dispname = "阴阳"
+    }
+    else if (dispname == "Parallel Universe"){
+        dispname = "平行宇宙"
+    }
+    else if (dispname == "Higher Dimensions"){
+        dispname = "高维存在"
+    }
+    else if (dispname == "Epiphany"){
+        dispname = "天人合一"
+    }
+    progressBar.getElementsByClassName("name")[0].textContent = dispname + " 等级 " + currentTask.level
     progressBar.getElementsByClassName("progressFill")[0].style.width = currentTask.xp / currentTask.getMaxXp() * 100 + "%"
 }
 
@@ -776,16 +999,182 @@ function updateRequiredRows(data, categoryType) {
             if (data == gameData.taskData) {
                 if (requirementObject instanceof EvilRequirement) {
                     evilElement.classList.remove("hiddenTask")
-                    evilElement.textContent = format(requirements[0].requirement) + " evil"	
+                    evilElement.textContent = format(requirements[0].requirement) + " 邪恶"	
                 } else if (requirementObject instanceof EssenceRequirement) {
                            essenceElement.classList.remove("hiddenTask")
-                           essenceElement.textContent = format(requirements[0].requirement) + " essence"
+                           essenceElement.textContent = format(requirements[0].requirement) + " 精华"
                 } else {
                     levelElement.classList.remove("hiddenTask")
                     for (requirement of requirements) {
                         var task = gameData.taskData[requirement.task]
                         if (task.level >= requirement.requirement) continue
-                        var text = " " + requirement.task + " level " + format(task.level) + "/" + format(requirement.requirement) + ","
+                        var cnrequirement = requirement.task
+                        if (cnrequirement == "Concentration"){
+                            cnrequirement = "专注"
+                        }                    
+                        else if (cnrequirement == "Meditation"){
+                            cnrequirement = "冥想"
+                        }                    
+                        else if (cnrequirement == "Beggar"){
+                            cnrequirement = "乞丐"
+                        }                    
+                        else if (cnrequirement == "Farmer"){
+                            cnrequirement = "农民"
+                        }                    
+                        else if (cnrequirement == "Strength"){
+                            cnrequirement = "力量"
+                        }                    
+                        else if (cnrequirement == "Fisherman"){
+                            cnrequirement = "渔夫"
+                        }                    
+                        else if (cnrequirement == "Miner"){
+                            cnrequirement = "矿工"
+                        }                    
+                        else if (cnrequirement == "Bargaining"){
+                            cnrequirement = "议价"
+                        }                    
+                        else if (cnrequirement == "Blacksmith"){
+                            cnrequirement = "铁匠"
+                        }                    
+                        else if (cnrequirement == "Squire"){
+                            cnrequirement = "扈从"
+                        }                    
+                        else if (cnrequirement == "Battle Tactics"){
+                            cnrequirement = "兵法韬略"
+                        }                    
+                        else if (cnrequirement == "Footman"){
+                            cnrequirement = "步兵"
+                        }                    
+                        else if (cnrequirement == "Veteran footman"){
+                            cnrequirement = "资深步兵"
+                        }                    
+                        else if (cnrequirement == "Centenary"){
+                            cnrequirement = "百夫长"
+                        }                    
+                        else if (cnrequirement == "Knight"){
+                            cnrequirement = "骑士"
+                        }                    
+                        else if (cnrequirement == "Mana Control"){
+                            cnrequirement = "控制法力"
+                        }                    
+                        else if (cnrequirement == "Veteran Knight"){
+                            cnrequirement = "资深骑士"
+                        }                    
+                        else if (cnrequirement == "Holy Knight"){
+                            cnrequirement = "圣骑士"
+                        }                    
+                        else if (cnrequirement == "Student"){
+                            cnrequirement = "学生"
+                        }                    
+                        else if (cnrequirement == "Apprentice Mage"){
+                            cnrequirement = "魔法学徒"
+                        }                    
+                        else if (cnrequirement == "Adept Mage"){
+                            cnrequirement = "法师达人"
+                        }                    
+                        else if (cnrequirement == "Master Wizard"){
+                            cnrequirement = "大法师"
+                        }                    
+                        else if (cnrequirement == "Archmage"){
+                            cnrequirement = "法宗"
+                        }                    
+                        else if (cnrequirement == "Productivity"){
+                            cnrequirement = "效率"
+                        }                    
+                        else if (cnrequirement == "Chronomancer"){
+                            cnrequirement = "时光法师"
+                        }                    
+                        else if (cnrequirement == "All Seeing Eye"){
+                            cnrequirement = "全视之眼"
+                        }                    
+                        else if (cnrequirement == "Chairman"){
+                            cnrequirement = "主席"
+                        }                    
+                        else if (cnrequirement == "Corrupted"){
+                            cnrequirement = "腐化"
+                        }                    
+                        else if (cnrequirement == "Brainwashing"){
+                            cnrequirement = "意识操控"
+                        }                    
+                        else if (cnrequirement == "Void Slave"){
+                            cnrequirement = "虚空奴隶"
+                        }                    
+                        else if (cnrequirement == "Mind Seize"){
+                            cnrequirement = "占据意识"
+                        }                    
+                        else if (cnrequirement == "Void Fiend"){
+                            cnrequirement = "虚空邪魔"
+                        }                    
+                        else if (cnrequirement == "Temporal Dimension"){
+                            cnrequirement = "时间维度"
+                        }                    
+                        else if (cnrequirement == "Abyss Anomaly"){
+                            cnrequirement = "深渊畸体"
+                        }                    
+                        else if (cnrequirement == "Void Amplification"){
+                            cnrequirement = "扩充虚空"
+                        }                    
+                        else if (cnrequirement == "Void Wraith"){
+                            cnrequirement = "虚空幽魂"
+                        }                    
+                        else if (cnrequirement == "Void Symbiosis"){
+                            cnrequirement = "虚空共生"
+                        }                    
+                        else if (cnrequirement == "Void Reaver"){
+                            cnrequirement = "虚空掠夺者"
+                        }                    
+                        else if (cnrequirement == "Void Embodiment"){
+                            cnrequirement = "虚空化身"
+                        }                    
+                        else if (cnrequirement == "Void Lord"){
+                            cnrequirement = "虚空领主"
+                        }                    
+                        else if (cnrequirement == "Eternal Wanderer"){
+                            cnrequirement = "永恒浪客"
+                        }                    
+                        else if (cnrequirement == "Cosmic Longevity"){
+                            cnrequirement = "天地同寿"
+                        }                    
+                        else if (cnrequirement == "Nova"){
+                            cnrequirement = "新星"
+                        }                    
+                        else if (cnrequirement == "Cosmic Recollection"){
+                            cnrequirement = "宇宙回忆"
+                        }                    
+                        else if (cnrequirement == "Galactic Command"){
+                            cnrequirement = "银河命令"
+                        }                    
+                        else if (cnrequirement == "Sigma Proioxis"){
+                            cnrequirement = "西格玛普洛伊俄克斯"
+                        }                    
+                        else if (cnrequirement == "Acallaris"){
+                            cnrequirement = "阿卡拉里斯"
+                        }                    
+                        else if (cnrequirement == "Imperator"){
+                            cnrequirement = "法皇"
+                        }                    
+                        else if (cnrequirement == "Absolute Wish"){
+                            cnrequirement = "绝对心愿"
+                        }                    
+                        else if (cnrequirement == "Void Influence"){
+                            cnrequirement = "虚空影响"
+                        }                    
+                        else if (cnrequirement == "Ceaseless Abyss"){
+                            cnrequirement = "无尽深渊"
+                        }                    
+                        else if (cnrequirement == "Dark Influence"){
+                            cnrequirement = "黑暗影响"
+                        }                    
+                        else if (cnrequirement == "Abyss God"){
+                            cnrequirement = "深渊之神"
+                        }                    
+                        else if (cnrequirement == "Dark Knowledge"){
+                            cnrequirement = "黑暗知识"
+                        }                    
+                        else if (cnrequirement == "Essence Collector"){
+                            cnrequirement = "精华汲取"
+                        }
+                        var text = "" + cnrequirement + " 等级 " + format(task.level) + "/" + format(requirement.requirement) + "，"
                         finalText += text
                     }
                     finalText = finalText.substring(0, finalText.length - 1)
