@@ -183,6 +183,9 @@ class Item {
         else if (description == "Void Manipulation XP"){
             description = "虚空操控经验值"
         }
+        else if (description == "Galactic Council XP"){
+            description = "银河委员会经验值"
+        }
         var text = description + " x" + this.baseData.effect.toFixed(1)
         return text
     }
